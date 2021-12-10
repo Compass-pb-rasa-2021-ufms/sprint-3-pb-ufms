@@ -21,9 +21,9 @@ Terceira sprint do programa de bolsas Compass.uol para formação em chatbot Ras
 ---
 
 ## Grupos
-- Grupo 1: Analia, Leo Freitas e Vinicius
-- Grupo 2: Daniel, Filipe e João
-- Grupo 3: Leo Biazom, Leo Lino e Nathan
+- **Grupo 1**: Analia, Leo Freitas e Vinicius
+- **Grupo 2**: Daniel, Filipe e João
+- **Grupo 3**: Leo Biazom, Leo Lino e Nathan
 
 ---
 ---
