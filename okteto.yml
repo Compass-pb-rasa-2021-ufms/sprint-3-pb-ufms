@@ -1,0 +1,14 @@
+name: tensorflow-notebook
+selector:
+  app: tensorflow-notebook
+container: jupyter
+command: bash
+volumes:
+- /root/.cache/pip
+sync:
+- .:/data
+forward:
+- 6006:6006
+- 8888:8888
+reverse:
+- 9000:9000
