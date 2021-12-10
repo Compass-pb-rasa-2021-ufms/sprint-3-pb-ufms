@@ -16,7 +16,7 @@ Terceira sprint do programa de bolsas Compass.uol para formação em chatbot Ras
 - Aceitar o convite do repositório da sprint-3-pb-ufms;
 - Criar uma branch no repositório com o formato grupo-número (Exemplo: grupo-1);
 - Subir o trabalho na branch com um readme.md, documentando detalhes sobre como a avaliação foi desenvolvida e como utilizar o sistema;
-- O prazo de entrega é até às 13h do dia 13/12 neste repositório do github (https://github.com/Compass-pb-rasa-2021-ufms/sprint-3-pb-ufms).
+- O prazo de entrega é até às 13h do dia 13/12/2021 neste repositório do github (https://github.com/Compass-pb-rasa-2021-ufms/sprint-3-pb-ufms).
 
 ---
 
