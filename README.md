@@ -1,9 +1,15 @@
 # sprint-3-pb-ufms
+
 Avaliação da terceira sprint do programa de bolsas Compass.uol para formação em chatbot Rasa.
 
 ---
 
+## Dataset: Cats vs Dogs
+
+Disponível em: (https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)
+
 ## Execução
+
 - Com base no notebook apresentado neste tutorial do Tensorflow: https://www.tensorflow.org/tutorials/keras/classification (outros padrões como scikit-learn e pytorch também podem ser usados, no caso de exemplos equivalentes);
 - Trocar por outro dataset para treinamento. Pode ser usado qualquer dataset do Tensorflow, conforme mostra esta listagem: https://www.tensorflow.org/datasets/catalog/overview
 - Armazenar o modelo treinado no MongoDB, ou outro banco de dados de sua preferência;
@@ -13,6 +19,7 @@ Avaliação da terceira sprint do programa de bolsas Compass.uol para formação
 ---
 
 ## Entrega
+
 - Aceitar o convite do repositório da sprint-3-pb-ufms;
 - Criar uma branch no repositório com o formato grupo-número (Exemplo: grupo-1);
 - Subir o trabalho na branch com um readme.md, documentando detalhes sobre como a avaliação foi desenvolvida e como utilizar o sistema;
@@ -21,9 +28,11 @@ Avaliação da terceira sprint do programa de bolsas Compass.uol para formação
 ---
 
 ## Grupos
+
 - **Grupo 1**: Analia, Leo Freitas e Vinicius
 - **Grupo 2**: Daniel, Filipe e João
-- **Grupo 3**: Leo Biazom, Leo Lino e Nathan
+- **Grupo 3**: Leo Biazom, Leo Lino e Nathan - Tema: Cats vs Dogs
 
 ---
+
 ---

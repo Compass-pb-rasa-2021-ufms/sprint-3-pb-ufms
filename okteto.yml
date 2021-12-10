@@ -1,14 +1,8 @@
 name: tensorflow-notebook
-selector:
-  app: tensorflow-notebook
-container: jupyter
-command: bash
-volumes:
-- /root/.cache/pip
-sync:
-- .:/data
-forward:
-- 6006:6006
-- 8888:8888
-reverse:
-- 9000:9000
+image: tensorflow/tensorflow:1.6.0-devel
+workdir: /data
+command: ["jupyter", "notebook", "--allow-root"]
+environment:
+  - PASSWORD=okteto
+persistentVolume:
+  enabled: true
