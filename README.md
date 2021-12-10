@@ -5,7 +5,7 @@ Avaliação da terceira sprint do programa de bolsas Compass.uol para formação
 
 ## Execução
 - Com base no notebook apresentado neste tutorial do Tensorflow: https://www.tensorflow.org/tutorials/keras/classification (outros padrões como scikit-learn e pytorch também podem ser usados, no caso de exemplos equivalentes);
-- Trocar por outro dataset para treinamento, e **verificar se já não foi escolhido por outro grupo**. Pode ser usado qualquer dataset do Tensorflow, conforme mostra esta listagem: https://www.tensorflow.org/datasets/catalog/overview
+- Trocar por outro dataset para treinamento, e **verificar se já não foi escolhido por outro grupo**. Pode ser usado qualquer dataset do Tensorflow (ou similar de outro padrão), conforme mostra esta listagem: https://www.tensorflow.org/datasets/catalog/overview
 - Armazenar o modelo treinado no MongoDB, ou outro banco de dados de sua preferência;
 - Carregar o modelo armazenado para reconhecer um novo exemplo. Observe o exemplo de reconhecimento na seção "Fazendo Previsões" deste notebook: https://github.com/dsacademybr/DeepLearningBook/blob/master/Cap47/Reconhecimento-Imagens-Redes-Neurais-Convolucionais-Python%E2%80%93V2.ipynb
 - Subir como uma aplicação sobre o Jupyter Notebook no Okteto (https://cloud.okteto.com/). Olhem esta dica: https://web.archive.org/web/20200625071435/https://okteto.com/blog/deploy-jupyter-tensorflow-notebook-in-one-click/
