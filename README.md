@@ -5,7 +5,7 @@ Avaliação da terceira sprint do programa de bolsas Compass.uol para formação
 
 
 ## DataSet
-- O dataset escolhido foi: [dataset](https://www.tensorflow.org/tutorials/images/cnn) 
+- O dataset escolhido foi: CIFAR10 [dataset](https://www.tensorflow.org/tutorials/images/cnn) 
 ## Execução
 - Com base no notebook apresentado neste tutorial do Tensorflow: https://www.tensorflow.org/tutorials/keras/classification (outros padrões como scikit-learn e pytorch também podem ser usados, no caso de exemplos equivalentes);
 - Trocar por outro dataset para treinamento. Pode ser usado qualquer dataset do Tensorflow, conforme mostra esta listagem: https://www.tensorflow.org/datasets/catalog/overview
