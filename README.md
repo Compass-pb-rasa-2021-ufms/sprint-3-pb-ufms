@@ -1,6 +1,6 @@
 # 🟢 Avaliação Sprint 3 - Programa de Bolsas Compass.uol e UFMS 🟢
 # Acesso ao Projeto
-- Para executar o notebook é necessário acessar o link [clicando aqui](https://jupyter-tf-test-tensorflow-notebook-viniciusmarchi.cloud.okteto.net/tree?)
+- Para executar o notebook é necessário acessar o link [clicando aqui](https://jupyter-tensorflow-notebook-viniciusmarchi.cloud.okteto.net/notebooks/cifar10-model.ipynb). A senha de acesso é "okteto", caso exigida. 
 ---
 ## DataSet
  O dataset escolhido foi o [CIFAR10](https://www.tensorflow.org/tutorials/images/cnn) que consiste em uma rede convulacional que reconhece padrões diversos em imagens, baseado nas seguintes classes: 
