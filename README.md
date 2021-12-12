@@ -46,7 +46,9 @@ Além disso, consideramos que a versão 1.12.0, se encontra desatualizada, visto
 
 O problema mais grave encontrado foi um comportamento inesperado de *não* convergência do modelo. Utilizamos como base a documentação do tensorflow para construir o modelo capaz de resolver o problema de classificação apresentado pelo dataset CIFAR10, entretanto obtemos um erro, uma função, descrita pela documentação, ainda não existia, devido a versão desatualizada, como mostra a figura abaixo:
 
-Como mostra a figura ![erro de loss](Assets/tf_version_loss_error.png)
+Como mostra a figura: 
+
+![erro de loss](Assets/tf_version_loss_error.png)
 
 Então, buscando por versões anteriores da documentação, encontramos a maneira correta para a versão 1.12, como mostra a figura abaixo:
 
@@ -64,9 +66,10 @@ Na versão 1.12 não foi possivel utilizar a lib Pickle para serializariar o arq
 Esse erro foi encontrado em issues no repositório do Tensorflow, por isso optamos por utilizar outra lib para realizar esse processo, o GridFS.
 
 ## Erro de conexão e reinicialização do notebook
-Por fim, um erro não relacionado ao código, mas a plataforma em si, que causou empecilhos, foi o erro de conexão do okteto. Esporadicamente (até mesmo no meio do treinamento do modelo) o oketo enviava uma mensagem de erro informando que aconteceram problemas no kernel, como mostra a figura abaixo
+Por fim, um erro não relacionado ao código, mas a plataforma em si, que causou empecilhos, foi o erro de conexão do okteto. Esporadicamente (até mesmo no meio do treinamento do modelo) o oketo enviava uma mensagem de erro informando que aconteceram problemas no kernel, como mostra a figura abaixo:
 
 ![notebook error](Assets/notebook_error.png)
+
 Esse erro precedia a desconexão completa do jupyter notebook, o qual ficava inoperante, como mostra a figura abaixo. 
 
 ![jupyter desconectado](Assets/notebook_not_connected.png)
