@@ -2,7 +2,7 @@
 ## Avaliação da terceira sprint do programa de bolsas Compass.uol para formação em chatbot Rasa.
 ---
 # Acesso ao Projeto
-- Para executar o notebook é necessário acessar o link [clicando aqui](https://jupyter-tf-test-tensorflow-notebook-viniciusmarchi.cloud.okteto.net/tree?)
+- Para executar o notebook é necessário acessar o link [clicando aqui](https://jupyter-tf-sprint3-tensorflow-notebook-viniciusmarchi.cloud.okteto.net/tree#notebooks)
 Você encontrará uma pasta chamada "Dataset" onde está armazenado todas as imagens que usamos e junto com ela o arquivo .ipynb, sendo ele nosso notebook contendo todo o projeto da rede convulacional.
 ---
 ## DataSet
