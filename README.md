@@ -54,7 +54,7 @@ Então, buscando por versões anteriores da documentação, encontramos a maneir
 
 ![loss na versão 1.12](Assets/tf_loss_1-12_version.png)
 
-Nesse momento, o comportamento inesperado de não convergência aconteceu. O modelo deixou de convergir. Inexplicavelmente, permanecendo durante 10 épocas de treinamento com o *exato* mesmo valor de loss e acurárica, como se não estivesse sendo otimizado de fato. Esse comportamento inesperado não lançou nenhum erro por parte do tensorflow, o que dificultou a compreensão da situação, então, simplesmente realizando outro deploy de jupyter notebook, o erro foi corrigido, entretanto ele foi observado em outros momentos.
+Nesse momento, o comportamento inesperado de não convergência aconteceu. O modelo deixou de convergir. Inexplicavelmente, permanecendo durante 10 épocas de treinamento com o *exato* mesmo valor de loss e accuracy, como se não estivesse sendo otimizado de fato. Esse comportamento inesperado não lançou nenhum erro por parte do tensorflow, o que dificultou a compreensão da situação, então, simplesmente realizando outro deploy de jupyter notebook, o erro foi corrigido, entretanto ele foi observado em outros momentos.
 
 Até o momento não sabemos o que causou esse comportamento, devido a isso, não conseguimos reproduzi-lo, mas acreditamos ser um bug que foi corrigido em versões mais recentes no tensorflow.
 
