@@ -1,5 +1,5 @@
 #  :red_circle: Acesso ao app
--
+- https://jupyter-tensorflow-notebook-danielyudicarvalho.cloud.okteto.net/notebooks/notebook.ipynb
 
 #  :floppy_disk: Dataset: IMDB
 - https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
