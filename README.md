@@ -56,7 +56,7 @@ Então, buscando por versões anteriores da documentação, encontramos a maneir
 
 Nesse momento, o comportamento inesperado de não convergência aconteceu. O modelo deixou de convergir. Inexplicavelmente, permanecendo durante 10 épocas de treinamento com o *exato* mesmo valor de loss e accuracy, como se não estivesse sendo otimizado de fato. Esse comportamento inesperado não lançou nenhum erro por parte do tensorflow, o que dificultou a compreensão da situação, então, simplesmente realizando outro deploy de jupyter notebook, o erro foi corrigido, entretanto ele foi observado em outros momentos.
 
-Não sabemos o que causou esse comportamento, mas já conseguimos reproduzi-lo. Acreditamos que possa ter sido um bug que foi corrigido em versões mais recentes no tensorflow.
+Não sabemos o que causou esse comportamento, mas conseguimos resolvê-lo apenas recriando a instância do jupyter notebook, assim conseguindo treinar o modelo normalmente.
 
 ## Erro ao utilizar Pickle
 Na versão 1.12 não foi possivel utilizar a lib Pickle para serializariar o arquivo que representa o modelo gerado pelo tensorflow, a fim de tornar possível sua inserção no banco de dados.
