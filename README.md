@@ -26,3 +26,6 @@ Foi desenvolvida uma rede neural capaz de aprender a classificar o sentimento de
 - <a href="https://www.tensorflow.org/">Tensorflow</a>
 - <a href="https://keras.io/">Keras</a>
 - <a href="https://pymongo.readthedocs.io/en/stable/index.html">Pymongo</a>
+- <a href="https://jupyter.org/">Jupyter Notebook</a>
+- <a href="https://www.docker.com/">Docker</a>
+- <a href="https://colab.research.google.com/notebooks/welcome.ipynb?hl=pt_BR">Google Colab</a>
