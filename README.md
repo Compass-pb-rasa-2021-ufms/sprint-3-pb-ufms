@@ -66,12 +66,12 @@ A rede neural possui uma sequencia de camadas Convolucionais, de Agrupamento (_P
 
 1. O _Input_ recebe os valores de pixel das imagens;
 2. A camada Convolucional faz a computação dos pesos, baseados no input;
-3. A camada ReLU aplicará a ativação da função;
-4. A camada de Agrupamento fará a redução da taxa de amostragem, permitindo capturar atributos estruturais da imagem com maior precisão;
+3. O ReLU aplicará a ativação da função;
+4. Por meio do Agrupamento, será feita a redução da taxa de amostragem, permitindo capturar atributos estruturais da imagem com maior precisão;
 5. A camada Totalmente Conectada computará os _scores_;
 6. Por fim será gerado a saída.
 
-A rede foi treinada com um dataset de 25.000 imagens, em 11 épocas.
+A rede foi treinada com um dataset de 20.000 imagens, em 11 épocas.
 
 ---
 
@@ -83,7 +83,7 @@ Um vídeo que demonstra isso de uma melhor maneira pode ser visto neste link: (h
 
 ## Saída
 
-Após ter sido treinada, o modelo possui uma acurácia de 85% (aproximadamente), sendo capaz de identificar, diferenciar e rotular imagens de cachorros e gatos.  
+Após ter sido treinado, o modelo possui uma acurácia de 85% (aproximadamente), sendo capaz de identificar, diferenciar e rotular imagens de cachorros e gatos.  
 
 Existe uma conexão ao MongoDB, onde se encontra salvo o modelo do projeto já treinado.  
 
