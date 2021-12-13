@@ -1,30 +1,28 @@
-# sprint-3-pb-ufms
-Avaliação da terceira sprint do programa de bolsas Compass.uol para formação em chatbot Rasa.
+#  :red_circle: Acesso ao app
+- https://jupyter-tensorflow-notebook-danielyudicarvalho.cloud.okteto.net/notebooks/notebook.ipynb
 
----
+#  :floppy_disk: Dataset: IMDB
+- https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
 
-## Execução
-- Com base no notebook apresentado neste tutorial do Tensorflow: https://www.tensorflow.org/tutorials/keras/classification (outros padrões como scikit-learn e pytorch também podem ser usados, no caso de exemplos equivalentes);
-- Trocar por outro dataset para treinamento, e **verificar se já não foi escolhido por outro grupo**. Pode ser usado qualquer dataset do Tensorflow (ou similar de outro padrão), conforme mostra esta listagem: https://www.tensorflow.org/datasets/catalog/overview
-- Armazenar o modelo treinado no MongoDB, ou outro banco de dados de sua preferência;
-- Carregar o modelo armazenado para reconhecer um novo exemplo. Observe o exemplo de reconhecimento na seção "Fazendo Previsões" deste notebook: https://github.com/dsacademybr/DeepLearningBook/blob/master/Cap47/Reconhecimento-Imagens-Redes-Neurais-Convolucionais-Python%E2%80%93V2.ipynb
-- Subir como uma aplicação sobre o Jupyter Notebook no Okteto (https://cloud.okteto.com/). Olhem esta dica: https://web.archive.org/web/20200625071435/https://okteto.com/blog/deploy-jupyter-tensorflow-notebook-in-one-click/
+# :busts_in_silhouette: Integrantes do grupo
+- Daniel Yudi Carvalho
+- Filipe Camuso Fernandez
+- João Paulo de Souza Wakugawa
 
----
+# :chart_with_upwards_trend: Desenvolvimento da aplicação
+Foi desenvolvida uma rede neural capaz de aprender a classificar o sentimento descrito num texto como bom, regular ou ruim, a partir do dataset IMDB, no qual possui 50,000 reviews de filmes, onde metade foram utilizadas para teste e a outra metade para treinar o modelo.
 
-## Entrega
-- Aceitar o convite do repositório da sprint-3-pb-ufms;
-- Criar uma branch no repositório com o formato grupo-número (Exemplo: grupo-1);
-- Subir o trabalho na branch com um readme.md, documentando detalhes sobre como a avaliação foi desenvolvida e como utilizar o sistema;
-- **O dataset utilizado deverá, necessariamente, ser diferente dos demais grupos;**
-- O prazo de entrega é até às 13h do dia 13/12/2021 neste repositório do github (https://github.com/Compass-pb-rasa-2021-ufms/sprint-3-pb-ufms).
+<img title="Modelo PLN 1" alt="Alt text" src="/images/modeloPLN.png">
+<img title="Modelo PLN 2" alt="Alt text" src="/images/modeloPLN2.png">
 
----
 
-## Grupos
-- **Grupo 1**: Analia, Leo Freitas e Vinicius
-- **Grupo 2**: Daniel, Filipe e João
-- **Grupo 3**: Leo Biazom, Leo Lino e Nathan
+## :pushpin: Links
+- https://trello.com/b/ylcfHqPg/pb-rasa-2021-sprint-3
 
----
----
+# :books: Tecnologias e dependências
+- <a href="https://docs.python.org/3/">Python</a>
+- <a href="https://docs.mongodb.com/">MongoDB</a>
+- <a href="https://okteto.com/docs/reference/manifest/">Okteto</a>
+- <a href="https://www.tensorflow.org/">Tensorflow</a>
+- <a href="https://keras.io/">Keras</a>
+- <a href="https://pymongo.readthedocs.io/en/stable/index.html">Pymongo</a>

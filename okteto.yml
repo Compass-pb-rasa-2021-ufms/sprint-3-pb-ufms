@@ -1,0 +1,7 @@
+name: tensorflow-notebook
+workdir: /data
+command: ["jupyter", "notebook", "--allow-root"]
+environment:
+  - PASSWORD=okteto
+persistentVolume:
+  enabled: true
