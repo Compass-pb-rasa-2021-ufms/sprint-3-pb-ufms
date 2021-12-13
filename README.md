@@ -6,7 +6,7 @@ Avaliação da terceira sprint do programa de bolsas Compass.uol para formação
 
 # Acesso ao app
 
-(https://jupyter-f-fakeus3r.cloud.okteto.net/)
+(https://jupyter-f-fakeus3r.cloud.okteto.net/)  
 (Token de acesso: e7224331a8db2cd21bc553f410d0ce7d5b654a55d4a4bb91)
 
 # Objetivo do projeto:
@@ -21,7 +21,7 @@ O objetivo deste projeto é criar uma rede neural capaz de identificar e classif
 
 # Dataset: Cats vs Dogs :cat::dog:
 
-Disponível em: (https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)
+Disponível em: (https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)    
 (Devido a um problema para fazer o _resize_ das imagens, foram utilizadas as contidas neste link: (https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data))
 
 # Desenvolvimento
@@ -62,7 +62,7 @@ As imagens foram redimensionadas em 50x50px, bem como transformadas para escala 
 
 ## Rede Neural - Rede Convolucional (CNN)
 
-A rede neural possui uma sequencia de camadas Convolucionais, de Agrupamento (_Pooling_) e uma camada Totalmente Conectada. Ao todo, são 8 camadas Convolucionais.
+A rede neural possui uma sequencia de camadas Convolucionais, de Agrupamento (_Pooling_) e uma camada Totalmente Conectada. Ao todo, são 8 camadas Convolucionais.  
 
 1. O _Input_ recebe os valores de pixel das imagens;
 2. A camada Convolucional faz a computação dos pesos, baseados no input;
@@ -75,27 +75,27 @@ A rede foi treinada com um dataset de 25.000 imagens, em 11 épocas.
 
 ---
 
-Em suma, a imagem passa por um processo de análise repetidas vezes, cada vez mais profunda, com o objetivo de extrair dados importantes para a análise.
+Em suma, a imagem passa por um processo de análise repetidas vezes, cada vez mais profunda, com o objetivo de extrair dados importantes para a análise.  
 
-![Exemplo](assets/CNN_ex.png)
+![Exemplo](assets/CNN_ex.png)  
 
 Um vídeo que demonstra isso de uma melhor maneira pode ser visto neste link: (https://www.youtube.com/watch?v=sh-MQboWJug&ab_channel=sentdex)
 
 ## Saída
 
-Após ter sido treinada, o modelo possui uma acurácia de 85% (aproximadamente), sendo capaz de identificar, diferenciar e rotular imagens de cachorros e gatos.
+Após ter sido treinada, o modelo possui uma acurácia de 85% (aproximadamente), sendo capaz de identificar, diferenciar e rotular imagens de cachorros e gatos.  
 
-Existe uma conexão ao MongoDB, onde se encontra salvo o modelo do projeto já treinado.
+Existe uma conexão ao MongoDB, onde se encontra salvo o modelo do projeto já treinado.  
 
-Exemplo de saída com imagens do set de testes:
-![Resultado](assets/resultado.png)
+Exemplo de saída com imagens do set de testes:  
+![Resultado](assets/resultado.png)  
 
 # Dificuldades encontradas
 
 ## Okteto Cloud - Versão padrão (Helm Chart) do Tensorflow desatualizada
 
 A maior dificuldade encontrada foi em relação a plataforma cloud kubernetes Okteto.
-Sua versão pronta do Jupyter Notebook utiliza como base o Python 2 e uma versão extremamente desatualizada do Tensorflow. Isso gerou incompatibilidades com diversas bibliotecas, atrasando o desenvolvimento do projeto.
+Sua versão pronta do Jupyter Notebook utiliza como base o Python 2 e uma versão extremamente desatualizada do Tensorflow. Isso gerou incompatibilidades com diversas bibliotecas, atrasando o desenvolvimento do projeto.  
 Portanto, foi decidido que usar Docker seria a melhor opção, e assim, fomos capazes de utilizar o Python 3, bem como uma versão do Tensorflow mais atualizada, possibilitando o uso das demais bibliotecas, sem erros.
 
 ## Dataset: Erro ao redimensionar imagens
