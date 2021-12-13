@@ -1,14 +1,7 @@
-
-FROM jupyter/scipy-notebook
-
-LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
-
-# Fix DL4006
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
-
-# Install Tensorflow
-RUN mamba install --quiet --yes \
-    'tensorflow' && 'opencv' && \
-    mamba clean --all -f -y && \
-    fix-permissions "${CONDA_DIR}" && \
-    fix-permissions "/home/${NB_USER}"
+FROM jupyter/tensorflow-notebook
+# Locales (PT e US)
+RUN set -ex \
+   && sed -i 's/^# en_US.UTF-8 UTF-8$/en_US.UTF-8 UTF-8/g' /etc/locale.gen \
+   && sed -i 's/^# pt_BR.UTF-8 UTF-8$/pt_BR.UTF-8 UTF-8/g' /etc/locale.gen \
+   && locale-gen en_US.UTF-8 pt_BR.UTF-8 \
+   && update-locale LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 \
