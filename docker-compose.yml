@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   jupyter:
-    image: jupyter/tensorflow-notebook:latest
+    build: .
     restart: "no"
     volumes:
       - ./notebooks:/home/jovyan/notebooks
