@@ -1,2 +1,2 @@
-model_checkpoint_path: "/data/dogsvscats-0.001-8conv-basic.model"
-all_model_checkpoint_paths: "/data/dogsvscats-0.001-8conv-basic.model"
+model_checkpoint_path: "/data/dogsvscats"
+all_model_checkpoint_paths: "/data/dogsvscats"
