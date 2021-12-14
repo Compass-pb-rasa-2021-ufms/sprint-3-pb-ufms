@@ -7,7 +7,7 @@ Avaliação da terceira sprint do programa de bolsas Compass.uol para formação
 # Acesso ao app
 
 (https://jupyter-f-fakeus3r.cloud.okteto.net/)  
-(Token de acesso: e7224331a8db2cd21bc553f410d0ce7d5b654a55d4a4bb91)
+(Token de acesso: 7775b1eeb433d4523573440fbb61e20535f7ec45ebd9e725)
 
 # Objetivo do projeto:
 
