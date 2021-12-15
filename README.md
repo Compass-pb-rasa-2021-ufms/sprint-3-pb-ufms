@@ -7,7 +7,7 @@ Avaliação da terceira sprint do programa de bolsas Compass.uol para formação
 # Acesso ao app
 
 (https://jupyter-f-fakeus3r.cloud.okteto.net/)  
-(Token de acesso: 7775b1eeb433d4523573440fbb61e20535f7ec45ebd9e725)
+(Token de acesso: 9d1301ad3a4a1459c43f7e9aa7aa21f0b632974eb29654b6)
 
 # Objetivo do projeto:
 
@@ -71,21 +71,21 @@ A rede neural possui uma sequencia de camadas Convolucionais, de Agrupamento (_P
 5. A camada Totalmente Conectada computará os _scores_;
 6. Por fim será gerado a saída.
 
-A rede foi treinada com um dataset de 20.000 imagens, em 11 épocas.  
+A rede foi treinada com um dataset de 20.000 imagens, em 11 épocas.
 
 ---
 
-Em suma, a imagem passa por um processo de análise repetidas vezes, cada vez mais profunda, com o objetivo de extrair dados importantes para a análise.  
+Em suma, a imagem passa por um processo de análise repetidas vezes, cada vez mais profunda, com o objetivo de extrair dados importantes para a análise.
 
-![Exemplo](assets/CNN_ex.png)  
+![Exemplo](assets/CNN_ex.png)
 
 Um vídeo que demonstra isso de uma melhor maneira pode ser visto neste link: (https://www.youtube.com/watch?v=sh-MQboWJug&ab_channel=sentdex)
 
 ## Saída
 
-Após ter sido treinado, o modelo possui uma acurácia de 85% (aproximadamente), sendo capaz de identificar, diferenciar e rotular imagens de cachorros e gatos.  
+Após ter sido treinado, o modelo possui uma acurácia de 85% (aproximadamente), sendo capaz de identificar, diferenciar e rotular imagens de cachorros e gatos.
 
-Existe uma conexão ao MongoDB, onde se encontra salvo o modelo do projeto já treinado.  
+Existe uma conexão ao MongoDB, onde se encontra salvo o modelo do projeto já treinado.
 
 Exemplo de saída com imagens do set de testes:  
 ![Resultado](assets/resultado.png)
