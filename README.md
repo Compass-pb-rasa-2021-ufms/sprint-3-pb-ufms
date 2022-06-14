@@ -1,4 +1,4 @@
-# sprint-3-pb-ufms
+# Avaliação Sprint 3 - Programa de Bolsas Compass.uol e UFMS
 Avaliação da terceira sprint do programa de bolsas Compass.uol para formação em chatbot Rasa.
 
 ---
